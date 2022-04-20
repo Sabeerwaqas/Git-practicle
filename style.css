@@ -1,0 +1,34 @@
+.first{
+    background-color: brown;
+    display: inline-block;
+
+    width: 30%;
+}
+
+.second{
+    background-color: yellowgreen;
+    display: inline-block;
+
+    width: 30%;
+}
+
+.third{
+    background-color: palevioletred;
+    display: inline-block;
+
+    width: 30%;
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .first, .second, .third{
+            display: block;    
+            margin: 0 auto;  
+    }
+    
+}
